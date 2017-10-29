@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_homework"
+            android:icon="@drawable/ic_menu_homework"
+            android:title="Homework" />
+
+        <item
+            android:id="@+id/nav_completed"
+            android:icon="@drawable/ic_check"
+            android:title="Completed" />
+
+        <item
+            android:id="@+id/nav_classes"
+            android:icon="@drawable/ic_menu_classes"
+            android:title="Classes" />
+
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_menu_schedule"
+            android:title="Schedule" />
+
+    </group>
+
+
+</menu>
